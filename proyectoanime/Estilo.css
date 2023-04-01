@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding: 0;
+    justify-content:center;
+   
+ }
+ body{
+    background: rgba(255, 255, 255, 0.87)
+   
+   
+}
+
+.menu {
+   
+    align-self: center;
+    
+     
+}
+
+h1{
+    color: rgb(6, 232, 248);
+    font-size: 25pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(17, 0, 255);
+}
+h2{
+    text-align: center;
+    text-decoration: solid;
+}
+
+nav{
+    width: 85%;
+    margin:  40px;
+    background-color: rgba(6, 232, 248);
+    padding: 10px;
+    
+}
+nav a {
+    color: rgb(183, 4, 253);
+    text-decoration:none;
+    margin-right: 70px;
+    
+}
+nav ul{
+    display: flex;
+    line-height: 40px;
+    text-align: center;
+}
+nav ul li{
+    list-style:none
+    
+}
+nav ul li a{
+    color:rgb(225, 0, 255);
+    text-decoration: none;
+    width: 156px;
+    display:block;
+    text-align: center;
+}
+nav ul li a:hover{
+    color: rgb(225, 0, 255);
+    background-color: rgb(6, 232, 248);
+    text-align: center;
+}
+nav ul li > ul{
+    display:none;
+    background-color: rgb(6, 232, 248);
+}
+nav ul li ul li{
+    border-bottom:dashed rgb(153, 0, 255);
+}
+nav ul li:hover > ul{
+    display:contents;
+    position: absolute;
+    width: 154px;
+}
+
+.contenido{
+    text-align: center;
+    display:flex;
+    list-style: none;
+    margin:  10px;
+    position:static;
+}
+.contenido2{
+    text-align: center;
+    display:flex;
+    list-style: none;
+    margin:  10px;
+    position:static;
+}
+
+.pie{
+    text-align: center;
+    display: flex;
+    list-style: none;
+}
+.sinopsis{
+    display: flex;
+    list-style: none;
+}
+
+
